@@ -1,0 +1,21 @@
+/src
+
+# dependencies
+/node_modules
+
+# local
+.env
+.local
+.env*.local
+
+# sensitive
+*.crt
+*.key
+*.pem
+
+# misc
+.DS_Store
+
+# typescript
+tsconfig.json
+tsup.config.ts
